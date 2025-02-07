@@ -9,12 +9,12 @@ import react from "@astrojs/react";
 import svelte from "@astrojs/svelte";
 
 export default defineConfig({
-  site: "https://alvindennis.vercel.app/",
+  site: "https://ajaybajad.vercel.app/",
 
   integrations: [sitemap(), robotsTxt({
     sitemap: [
-      "https://alvindennis.vercel.app/sitemap-index.xml",
-      "https://alvindennis.vercel.app/sitemap-0.xml",
+      "https://ajaybajad.vercel.app/sitemap-index.xml",
+      "https://ajaybajad.vercel.app/sitemap-0.xml",
     ],
   }), solidJs(), UnoCSS({ injectReset: true }), icon(), svelte(), react()],
 });
